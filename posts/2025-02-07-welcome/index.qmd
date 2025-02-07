@@ -1,0 +1,42 @@
+---
+title: "Welcome"
+author: "habetan-labs"
+date: 2025-02-07
+categories: [general, about]
+citation: 
+  url: https://habetan-labs.github.io/2025-02-07-welcome/
+image: river.jpg
+draft: false
+---
+
+::: column-page
+![](river.jpg)
+:::
+
+Welcome.
+
+If you are reading this, we encourage you to stop for one moment.
+
+*Breathe in. Breathe out.*
+
+We are in a time filled with fear, with uncertainty, with cruelty, with distraction, with noise. It is easy to feel overwhelmed, and we will feel overwhelmed and scared and angry and sad and all sorts of things.
+
+*Breathe in. Breath out.*
+
+But we do not have to be paralyzed or controlled by our fear. This is a moment for being human and yet being brave.
+
+*Breathe in. Breathe out.*
+
+We are embarking on an experiment. How, in these times, can we choose what we are for, not just what we are against?
+
+*Breathe in. Breath out.*
+
+Can we imagine an interwoven life where care is taken seriously, where care is treasured? How can we make that life possible? How can we live as if we truly believed that we only flourish together?
+
+*Breathe in. Breathe out.*
+
+This is a space where we are going to try to move closer to that vision, despite the times. This is a collective space. This is a space with questions and not necessarily answers.
+
+*Breathe in. Breath out.*
+
+We will be writing more in the coming days and weeks. Thank you for being here. We hope you will return.

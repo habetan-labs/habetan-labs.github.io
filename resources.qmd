@@ -8,4 +8,4 @@ date-modified: "02-07-2025"
 
 This site was made using [Quarto](https://quarto.org/docs/websites/), [RStudio](https://posit.co/download/rstudio-desktop/), and [Github Pages](https://pages.github.com). 
 
-This [guide from Sam Csik](https://ucsb-meds.github.io/creating-quarto-websites/) was invaluable in building this site.
+This [guide from Sam Csik](https://ucsb-meds.github.io/creating-quarto-websites/) was invaluable in building this site. Sam's [guide on adding a quarto blog](https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/) is also excellent.
