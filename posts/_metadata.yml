@@ -1,0 +1,5 @@
+#re-render only when change to source file is made
+freeze: auto
+
+#banner style title blocks
+title-block-banner: true

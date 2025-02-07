@@ -1,5 +1,11 @@
 ---
 title: "Resources"
 author: "habetan-labs"
-date-modified: "07-02-2025"
+date-modified: "02-07-2025"
 ---
+
+## How We Made This Site
+
+This site was made using [Quarto](https://quarto.org/docs/websites/), [RStudio](https://posit.co/download/rstudio-desktop/), and [Github Pages](https://pages.github.com). 
+
+This [guide from Sam Csik](https://ucsb-meds.github.io/creating-quarto-websites/) was invaluable in building this site.

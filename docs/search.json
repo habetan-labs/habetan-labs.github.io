@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "This site was made using Quarto, RStudio, and Github Pages.\nThis guide from Sam Csik was invaluable in building this site."
+  },
+  {
+    "objectID": "resources.html#how-we-made-this-site",
+    "href": "resources.html#how-we-made-this-site",
+    "title": "Resources",
+    "section": "",
+    "text": "This site was made using Quarto, RStudio, and Github Pages.\nThis guide from Sam Csik was invaluable in building this site."
   },
   {
     "objectID": "index.html",
@@ -12,5 +19,19 @@
     "title": "Habetan Labs",
     "section": "",
     "text": "Habetan Labs is an experiment in supporting and valuing systems and networks of care that connect us and enable mutual flourishing. This website is a collective effort, but the primary site admin goes by kart."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Coming soon"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Habetan Labs Blog",
+    "section": "",
+    "text": "No matching items"
   }
 ]
