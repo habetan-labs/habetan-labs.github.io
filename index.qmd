@@ -1,11 +1,5 @@
 ---
-title: "habetan-labs.github.io"
+title: "Habetan Labs"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Habetan Labs is an experiment in supporting and valuing systems and networks of care that connect us and enable mutual flourishing. This website is a collective effort, but the primary site admin goes by kart.
