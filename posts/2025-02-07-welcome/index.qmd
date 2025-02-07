@@ -10,7 +10,7 @@ draft: false
 ---
 
 ::: column-page
-![](river.jpg)
+![](river.jpg "A picture of a calm river under stormy skies")
 :::
 
 Welcome.
