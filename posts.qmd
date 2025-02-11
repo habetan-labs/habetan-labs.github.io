@@ -1,5 +1,5 @@
 ---
-title: "Habetan Labs Blog"
+title: "Dispatches"
 listing: 
   contents: posts
   type: grid

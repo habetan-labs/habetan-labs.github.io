@@ -4,14 +4,35 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "This site was made using Quarto, RStudio, and Github Pages.\nThis guide from Sam Csik was invaluable in building this site. Sam’s guide on adding a quarto blog is also excellent."
+    "text": "Somatic Self Care"
+  },
+  {
+    "objectID": "resources.html#caring-for-yourself",
+    "href": "resources.html#caring-for-yourself",
+    "title": "Resources",
+    "section": "",
+    "text": "Somatic Self Care"
+  },
+  {
+    "objectID": "resources.html#booklist",
+    "href": "resources.html#booklist",
+    "title": "Resources",
+    "section": "Booklist",
+    "text": "Booklist\nThe Serviceberry Hope in the Dark Let This Radicalize You"
+  },
+  {
+    "objectID": "resources.html#good-online-reading",
+    "href": "resources.html#good-online-reading",
+    "title": "Resources",
+    "section": "Good online reading",
+    "text": "Good online reading\nThe Marginalian Kottke"
   },
   {
     "objectID": "resources.html#how-we-made-this-site",
     "href": "resources.html#how-we-made-this-site",
     "title": "Resources",
-    "section": "",
-    "text": "This site was made using Quarto, RStudio, and Github Pages.\nThis guide from Sam Csik was invaluable in building this site. Sam’s guide on adding a quarto blog is also excellent."
+    "section": "How we made this site",
+    "text": "How we made this site\nThis site was made using Quarto, RStudio, and Github Pages.\nThis guide from Sam Csik was invaluable in building this site. Sam’s guide on adding a quarto blog is also excellent."
   },
   {
     "objectID": "posts/2025-02-07-welcome/index.html",
@@ -37,7 +58,7 @@
   {
     "objectID": "posts.html",
     "href": "posts.html",
-    "title": "Habetan Labs Blog",
+    "title": "Dispatches",
     "section": "",
     "text": "Welcome\n\n\n\ngeneral\n\n\nabout\n\n\n\n\n\n\n\nhabetan-labs\n\n\nFeb 7, 2025\n\n\n\n\n\n\n\n\nNo matching items"
   }
