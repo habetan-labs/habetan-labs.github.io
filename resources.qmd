@@ -5,15 +5,21 @@ date-modified: "02-07-2025"
 ---
 
 ## Caring for yourself
+
 [Somatic Self Care](https://hopkinsmedicine.org/office-of-well-being/connection-support/somatic-self-care)
 
 ## Booklist
+
 [The Serviceberry](https://bookshop.org/p/books/the-serviceberry-robin-wall-kimmerer/21259025)
+
 [Hope in the Dark](https://bookshop.org/p/books/hope-in-the-dark-untold-histories-wild-possibilities-updated-rebecca-solnit/8203155)
+
 [Let This Radicalize You](https://haymarketbooks.org/books/1922-let-this-radicalize-you)
 
 ## Good online reading
+
 [The Marginalian](https://themarginalian.org)
+
 [Kottke](https://kottke.org)
 
 ## How we made this site
