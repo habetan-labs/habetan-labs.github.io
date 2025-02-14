@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="kart">
+<meta name="dcterms.date" content="2025-02-14">
 
-<title>Dispatches – Habetan Labs</title>
+<title>Answers – Habetan Labs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +68,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Habetan Labs</span>
     </a>
   </div>
@@ -149,19 +91,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+    <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Dispatches</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html"> 
+    <a class="nav-link" href="../../resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
 </ul>
@@ -172,117 +114,100 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Answers</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">reflection</div>
+                <div class="quarto-category">connection</div>
+                <div class="quarto-category">action</div>
+                <div class="quarto-category">reading</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>kart </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 14, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="about">about <span class="quarto-category-count">(1)</span></div><div class="category" data-category="action">action <span class="quarto-category-count">(1)</span></div><div class="category" data-category="connection">connection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="general">general <span class="quarto-category-count">(1)</span></div><div class="category" data-category="reading">reading <span class="quarto-category-count">(1)</span></div><div class="category" data-category="reflection">reflection <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Dispatches</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
 
 
 
 
 
+<div class="column-post">
+<p><img src="postit.jpg" title="A picture of a postcard that reads, 'THE ANSWERS YOU WANT CAN'T BE FOUND ON THE INTERNET'" class="img-fluid"></p>
+</div>
+<p>I have this written on a post-it stuck to my desktop screen because I desperately need this reminder. In times like these, I am prone to dive down a researching rabbit hole. I refresh news feeds– NPR, The Guardian, Slate, AP News. I put books about authoritarianism and tyranny and citizenship on hold at the library. I follow my Senators on social media and search their websites for press releases. If only I can learn more, know more, see more, surely I will feel better.</p>
+<p>But I already know this is a lie.</p>
+<p>What I want is not to know more about how countries slide into authoritarianism or effective ways to build citizen power. What I want to know is what we all want to know.</p>
+<p>That we will be safe.</p>
+<p>That our families will be safe.</p>
+<p>That we won’t lose our jobs.</p>
+<p>That someone is going to do something about all this.</p>
+<p>That ICE won’t show up at our kids’ school.</p>
+<p>That our friend will get to keep their green card.</p>
+<p>That our research funding won’t evaporate.</p>
+<p>That some loophole is going to save us.</p>
+<p>That the work we spent a decade on won’t be dismantled within days.</p>
+<p>That somewhere there is some convincing argument that will get people on our side.</p>
+<p>We want to be soothed. We want to know that in the end it will all turn out okay, that good will prevail. We are grasping frantically for a rope, a toehold, something to tether us in the face of fear, some kind of certainty.</p>
+<p>But that certainty does not, cannot, exist.</p>
+<p><strong>Uncertainty is a fundamental part of being human.</strong></p>
+<p>The plain truth is that we were never safe. There is no power, no money, no structure, no knowledge, no belief that can fully insulate us from the uncertainty of this life in this world. The bottom can always drop out. We just usually don’t have to think about this.</p>
+<p>And in those times when the bottom does drop out– for an individual, a family, an entire country– we often turn quickly to easy explanations as self-protection.</p>
+<p>“She was pretty old,” we say to the friend whose grandmother died. <em>Those I love are not that old</em>, I say to myself.</p>
+<p>“Was he a smoker?” at the news of the lung cancer diagnosis. <em>Good thing my parents never smoked.</em></p>
+<p>“God has a plan,” from the faithful folks. <em>Let’s focus on some eventual good instead of acknowledging the current moment’s pain.</em></p>
+<p>“Their democracy was never that stable,” upon reading the headlines from that place on the other side of the world. <em>We have a few more hundred years on our side.</em></p>
+<p>“They’ve been fighting each other for centuries,” at the news of the latest bombings. <em>They are different from us</em>.</p>
+<p>“Evil is real”, when reading about those historic atrocities. <em>Of course I am a good person.</em></p>
+<p>These small acts of distancing, of self-protection, of deflection move us away from the fears of the real truth– that those we love are fragile and will someday die, as will we. That we cannot ward off aging or cancer or cardiac arrest with just the right diet or exercise routine. That no country is immune to collapse or invasion or loss of freedom. That the ability to do incredible good and horrific evil lives in each one of us.</p>
+<p>The internet can provide us all sorts of answers so quickly to so many other questions. Is “Ring around the Rosie” really about the plague? How long should I cook a soft-boiled egg? What is this mystery tool I found in my parents’ junk drawer? Of course we go looking for the bigger answers here too. We can read and scroll and pontificate and factcheck and argue in the comments. But we will not find the answer to our fears here.</p>
+<p>When I was in my 20s, my partner and I had a string of three quite-bad years. A brush with cancer. A string of hospitalizations and a major surgery. And finally, my dad’s sudden and completely unexpected death. The bottom dropped out. Some friends disappeared. But other friends and family members and colleagues and kind strangers caught us– with meals and mail, helping my mom run the family business in those first gutting few months, letting us sit sullen and angry and sad at the kitchen table while they made tea, hauling boxes, long phone calls, texts on the holidays and anniversaries, cash tucked in cards and unexpected Venmo notifications. None of these things made the pain disappear or the grief smaller. But they sustained us through.</p>
+<p>It is normal, reasonable, rational to be afraid right now, to want reassurance that it will all be okay, but looking to the internet to provide that will either mislead us or spiral us deeper into fear. Instead, let’s pause. Breathe. Then look for the people who will sustain us through. Who can you connect with, ideally in-person, but by phone or handwritten note if need be? Whose voice makes you feel anchored? Nurture those connections, with coffee and tea, reading recommendations, movie nights, unexpected cash in envelopes, errand runs, care packages, pictures of baby animals, and more.</p>
+<p>This is how we will sit with our fear, <strong>together</strong>, and not be overwhelmed, but be able to act.</p>
+<section id="this-weeks-action-and-further-reading" class="level4">
+<h4 class="anchored" data-anchor-id="this-weeks-action-and-further-reading"><u><strong>This week’s action and further reading</strong></u></h4>
+<p>Think of someone whose company you enjoy, who makes you smile, or who you know loves you deeply. Write that person a physical note and mail or hand-deliver it to them. If you don’t have their address, ask them for it.</p>
+<p><a href="https://thewhitepages.net/p/thirty-lonely-but-beautiful-actions">Thirty lonely but beautiful actions you can take right now</a></p>
+<p><a href="https://thedoubleshift.substack.com/p/building-your-irl-community-starts">Find your people IRL</a></p>
+<p><a href="https://www.barnraisersproject.org/our-classes.html">Join a class</a></p>
+<p>There are only 1,000 workdays in this administration. You’ve survived 20 of them. <a href="../media/Day1000_tracker.pdf">Get yourself a chart</a> (or make your own!) and mark them off.</p>
+<p><a href="https://brilliantcrank.com/the-dice-035/">Ways to take in information without getting pulled under</a></p>
+<p><a href="https://sherrilyn.substack.com/p/democracy-is-crumbling-is-anybody">I have accepted that there are no guarantees that we can overcome all that we are facing. But I do know that unless we fight, we cannot prevail.</a></p>
+<p><a href="https://orionmagazine.org/article/love-in-a-time-of-terror/">Most of the trouble that afflicts human beings in their lives can be traced to the failure to love.</a></p>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="reflection,connection,action,reading" data-listing-date-sort="1739516400000" data-listing-file-modified-sort="1739567676815" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1003">
-<a href="./posts/2025-02-14-answers/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2025-02-14-answers/postit.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Answers
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('reflection'); return false;">
-reflection
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('connection'); return false;">
-connection
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('action'); return false;">
-action
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('reading'); return false;">
-reading
-</div>
-</div>
-<div class="card-text listing-description">
-I have this written on a post-it stuck to my desktop screen because I desperately need this reminder. In times like these, I am prone to dive down a researching rabbit hole.…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-kart
-</div>
-<div class="listing-date">
-Feb 14, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="general,about" data-listing-date-sort="1738911600000" data-listing-file-modified-sort="1738956868280" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="211">
-<a href="./posts/2025-02-07-welcome/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2025-02-07-welcome/river.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Welcome
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('general'); return false;">
-general
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('about'); return false;">
-about
-</div>
-</div>
-<div class="card-text listing-description">
-Welcome.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-habetan-labs
-</div>
-<div class="listing-date">
-Feb 7, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
