@@ -22,6 +22,10 @@ date-modified: "02-07-2025"
 
 [Kottke](https://kottke.org)
 
+[Meditations in an Emergency](https://www.meditationsinanemergency.com)
+
+[The White Pages](https://thewhitepages.net)
+
 ## How we made this site
 
 This site was made using [Quarto](https://quarto.org/docs/websites/), [RStudio](https://posit.co/download/rstudio-desktop/), and [Github Pages](https://pages.github.com).
