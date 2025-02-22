@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="kart">
+<meta name="dcterms.date" content="2025-02-14">
 
-<title>Dispatches – Habetan Labs</title>
+<title>Witness – Habetan Labs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +68,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Habetan Labs</span>
     </a>
   </div>
@@ -149,19 +91,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+    <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Dispatches</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html"> 
+    <a class="nav-link" href="../../resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
 </ul>
@@ -172,156 +114,90 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Witness</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">reflection</div>
+                <div class="quarto-category">connection</div>
+                <div class="quarto-category">action</div>
+                <div class="quarto-category">reading</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>kart </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 14, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="about">about <span class="quarto-category-count">(1)</span></div><div class="category" data-category="action">action <span class="quarto-category-count">(2)</span></div><div class="category" data-category="connection">connection <span class="quarto-category-count">(2)</span></div><div class="category" data-category="general">general <span class="quarto-category-count">(1)</span></div><div class="category" data-category="reading">reading <span class="quarto-category-count">(2)</span></div><div class="category" data-category="reflection">reflection <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Dispatches</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
 
 
 
 
 
+<div class="column-post">
+<p><img src="reflection.jpg" title="A picture of water in a canal reflecting the city skyline" class="img-fluid"></p>
+</div>
+<p>There is so much happening all around us right now, a deluge of panic and uncertainty, bad news and fear, suffering and injustice. It’s easy to feel overwhelmed and to easily slip into familiar habits. Some of us retreat– we stop watching or reading or listening to the news and focus only on what’s in front of us. Some of us jump into action– organizing, contacting, checking up, adding new meetings to our schedules and to-dos to our list. Some of us spiral– should we start stocking up on canned food? Is now the time to look into residency requirements elsewhere. Some of us ping-pong between all three, hunkering down one day, over-committing the next, only to doom-spiral out at 1 a.m. watching videos about the perfect go-bag.</p>
+<p>As we come to the end of this fourth week, I’ve found myself thinking often of pacing. We’re only about a month in– how will we ensure that we move at a pace we can sustain? How many of us, <a href="https://annehelen.substack.com/p/who-else-is-feeling-this-in-their">in the words of Anne Helen Peterson</a>, are feeling this in our bodies right now? How can we create space to sit with the reality of this moment, to “<a href="https://youtu.be/ezlsq-OysoI?si=reflr0Ye87ARQ-1y">see things as they really are</a>,” and not forget the vital work of witness?</p>
+<p>In times like these, I tend towards either action of avoidance. You will find me either completely offline or deep in the weeds of meetings and phone calls and cooking and organizing and whatever other task I’ve found that seems useful in the moment. Both of these reactions allow me to sidestep my complex and potentially overwhelming feelings, to stuff grief and hurt and anger and fear down for another day, to be dealt with in an undefined ‘later’ time. I avoid and act and avoid and act until finally the dam of feelings is breached, perhaps by a fight with my spouse, bad news from a friend, a task gone wrong and work– and suddenly I am drowning. Or perhaps these feelings transmute themselves into a spasming back or a sharp twinge in my right hip as my body pulls the brake on constant motion. Either way, we cannot avoid these feelings forever, through inaction or constant doing, distraction or determination.</p>
+<p>So instead, let’s make room for the work of witness.</p>
+<p>The work of witness asks us to stop for a moment– stop doing, stop avoiding, and be still. Look, listen, feel. Take in our current moment. See who is being harmed and who is determining what harm is done, who has power and who does not, who is speaking and who is silent, who is valued and who is discarded. Sit with the feelings that arise from your observation of the situation– anger, sadness, fear, joy, hope, terror, despair, grief, rage, pity, pride, disgust– as each feeling comes, greet it as a guest. Call it by name, and see what it has to tell you. Try as best you can not to judge the feelings or to jump to action, but rather to be present with whatever comes. Then, after some time, move to thinking about what you might do now. Perhaps you want to share what you felt with a friend or write it down. Maybe you want to call your congressperson and tell them what you are feeling. Perhaps there is something you can do to support those most in harm’s way. May we see and feel what is happening all around us and take the time to respect the weight of it. Then may we, together, choose to move towards caring for one another.</p>
+<p><strong>This week’s action and further reading</strong></p>
+<p>I’ve included below a short selection of essays, articles, videos, and posts that capture some of the key concerns of this current moment in the U.S. as well as the continuing unfolding crises around the world. Pick one to read or watch, then sit and feel, and finally act.</p>
+<ul>
+<li>The diary of a political scientist who was born in Nazi-occupied Poland: <a href="https://adamprzeworski.substack.com/p/diary">“Is democracy dying in the United States?”</a></li>
+<li>The firing of civil servants: <a href="https://theconversation.com/firing-civil-servants-and-dismantling-government-departments-is-how-aspiring-strongmen-consolidate-personal-power-lessons-from-around-the-globe-249089">“a larger process in which elected leaders dismantle democracy from within”</a></li>
+<li>What this means for the Constitution: “There is no going back” <a href="https://www.nytimes.com/2025/02/05/opinion/trump-musk-federal-government.html">article</a> <a href="https://youtu.be/aBVGmDaQRbE?si=-TBI-EfWs9HtpqqE">video</a></li>
+<li>Native Nations: <a href="https://ictnews.org/news/life-or-death-consequences-layoffs-throw-indian-country-into-turmoil">“Life or death consequences”</a></li>
+<li>National Parks Services: “You’re losing people that are keeping the bathrooms clean, the trails maintained. <a href="https://www.npr.org/2025/02/17/nx-s1-5298684/national-park-ranger-trump-job-cuts-nps">You’re losing people who are teaching youth the value of protecting and preserving these places for current and future generation</a>”</li>
+<li>Federal workers: “I gave blood, sweat and tears to this country for 20 years to continue service to the federal government, doing what I was trained to do by them…<a href="https://www.npr.org/2025/02/20/nx-s1-5301150/trump-federal-employees-fired-veteran-food-agriculture">I kind of feel like I was just thrown out like a piece of trash.</a>”</li>
+<li>FAA firings: “<a href="https://www.rollingstone.com/politics/politics-features/trump-musk-faa-firings-purge-air-safety-1235271233/">Firing people that do this sort of work is not conducive to preventing accidents</a>”</li>
+<li>Research funding freezes: <a href="https://www.theguardian.com/environment/2025/feb/21/trump-scientific-research-climate">“The people most vulnerable in our society in terms of health and public safety are now even further at risk”</a></li>
+<li>Care for trans kids: “This is the last thing that we need to be worried about…<a href="https://www.vox.com/politics/398382/transgender-kids-trans-gender-affirming-care-trump-lgbtq">a political system attacking our family</a>”</li>
+<li>Deportations affecting families and their schools: “<a href="https://calmatters.org/education/k-12-education/2025/02/deportation/">The spectre of deportation is driving people underground</a>”</li>
+<li>The refugee system collapse: “<a href="https://www.propublica.org/article/trump-refugee-executive-order-afghan-allies">There might not be much of a refugee program left to recover</a>”</li>
+<li>Global effects of dismantling USAID: “<a href="https://www.rollingstone.com/politics/politics-features/trump-musk-faa-firings-purge-air-safety-1235271233/">We are plugging leaks in a system that is a dam that’s about to burst</a>”</li>
+<li>Tuberculosis: <a href="https://youtu.be/PBjQgizWRBA?si=WtYvFUeAjaFrB1pA">What’s at stake: video</a></li>
+</ul>
+<p><em>And an accountability check:</em></p>
+<p>Remember those <a href="https://thewhitepages.net/p/thirty-lonely-but-beautiful-actions">beautiful, lonely actions</a> from last week? Here’s the ones I did:</p>
+<ul>
+<li><p>Called my congresspeople, using the very helpful <a href="https://5calls.org">5-Calls app</a></p></li>
+<li><p>Subscribed to <a href="https://chopwoodcarrywaterdailyactions.substack.com">a newsletter</a> with helpful actions</p></li>
+<li><p>Checked in on federal workers I know</p></li>
+<li><p>Made sure I was up-to-date on union news (as a union member at my workplace)</p></li>
+<li><p>Participated in a class on community organizing</p></li>
+</ul>
+<p>I plan to participate in a protest and connect with a community organization this week. Maybe I’ll see you out there.</p>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="reflection,connection,action,reading" data-listing-date-sort="1739516400000" data-listing-file-modified-sort="1740199355928" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1003">
-<a href="./posts/2025-02-14-answers/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2025-02-14-answers/postit.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Answers
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('reflection'); return false;">
-reflection
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('connection'); return false;">
-connection
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('action'); return false;">
-action
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('reading'); return false;">
-reading
-</div>
-</div>
-<div class="card-text listing-description">
-I have this written on a post-it stuck to my desktop screen because I desperately need this reminder. In times like these, I am prone to dive down a researching rabbit hole.…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-kart
-</div>
-<div class="listing-date">
-Feb 14, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="reflection,connection,action,reading" data-listing-date-sort="1739516400000" data-listing-file-modified-sort="1740205077859" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1025">
-<a href="./posts/2025-02-21-witness/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2025-02-21-witness/reflection.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Witness
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('reflection'); return false;">
-reflection
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('connection'); return false;">
-connection
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('action'); return false;">
-action
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('reading'); return false;">
-reading
-</div>
-</div>
-<div class="card-text listing-description">
-There is so much happening all around us right now, a deluge of panic and uncertainty, bad news and fear, suffering and injustice. It’s easy to feel overwhelmed and to…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-kart
-</div>
-<div class="listing-date">
-Feb 14, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="general,about" data-listing-date-sort="1738911600000" data-listing-file-modified-sort="1739568141377" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="211">
-<a href="./posts/2025-02-07-welcome/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2025-02-07-welcome/river.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Welcome
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('general'); return false;">
-general
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('about'); return false;">
-about
-</div>
-</div>
-<div class="card-text listing-description">
-Welcome.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-habetan-labs
-</div>
-<div class="listing-date">
-Feb 7, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -428,6 +304,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

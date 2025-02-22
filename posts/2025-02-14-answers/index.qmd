@@ -10,7 +10,7 @@ draft: false
 ---
 
 ::: column-post
-![](postit.jpg "A picture of a postcard that reads, 'THE ANSWERS YOU WANT CAN'T BE FOUND ON THE INTERNET'")
+![](postit.jpg "A picture of a post-it note that reads, 'THE ANSWERS YOU WANT CAN'T BE FOUND ON THE INTERNET'")
 :::
 
 I have this written on a post-it stuck to my desktop screen because I desperately need this reminder. In times like these, I am prone to dive down a researching rabbit hole. I refresh news feeds– NPR, The Guardian, Slate, AP News. I put books about authoritarianism and tyranny and citizenship on hold at the library. I follow my Senators on social media and search their websites for press releases. If only I can learn more, know more, see more, surely I will feel better.
