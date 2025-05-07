@@ -10,7 +10,7 @@ draft: false
 ---
 
 ::: column-post
-\![\](poppy.jpg "A picture of a block-printed poppy with one open flower and one closed seed head)
+![](poppy.jpg "A picture of a block-printed poppy with one open flower and one closed seed head")
 :::
 
 Being quiet will not save you\
